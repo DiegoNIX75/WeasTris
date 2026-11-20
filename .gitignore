@@ -1,0 +1,24 @@
+# Dependencias y build
+node_modules
+dist
+dist-ssr
+
+# Variables de entorno locales (no se suben)
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs
+*.log
+
+# Editores y sistema
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.sw?
+
+# Vercel
+.vercel
